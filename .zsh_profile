@@ -1,0 +1,11 @@
+doge
+PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
+. $HOME/.asdf/asdf.sh
+. $HOME/.asdf/completions/asdf.bash
+
+unset QT_QPA_PLATFORM
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH="$PATH:$HOME/AUR/slack-desktop/pkg/slack-desktop/usr/bin" # for da lulz
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+tmux
