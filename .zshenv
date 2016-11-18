@@ -2,7 +2,8 @@ alias pacman='sudo pacman --color auto'
 alias powerpill='sudo powerpill'
 alias pacman-key='sudo pacman-key'
 alias tmux='tmux -2'
-alias gbr="git branch | grep -v 'develop' | xargs git branch -D"
+alias holyhandgrenade="git branch | grep -v 'develop' | xargs git branch -D"
+alias ifconfig="ip addr"
 
 git () {
   if [[ $1 = "reset" && $2="--hard" ]];
