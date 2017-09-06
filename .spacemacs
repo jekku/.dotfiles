@@ -328,6 +328,7 @@ you should place your code here."
     (setq-local js-indent-level n) ; js-mode
     (setq-local react-indent-level n) ; react-mode
     (setq-local python-indent-level n) ; pep8 strict must always be 2
+    (setq-local go-indent-level n) ; go-fmt is also always 2!
     (setq-local js2-basic-offset n) ; js2-mode, in latest js2-mode, it's alias of js-indent-level
     (setq-local web-mode-attr-indent-offset n) ; web-mode
     (setq-local web-mode-code-indent-offset n) ; web-mode, js code in html file
@@ -354,6 +355,7 @@ you should place your code here."
   (add-hook 'react-mode-hook 'my-personal-code-style)
   (add-hook 'sh-mode-hook 'my-personal-code-style)
   (add-hook 'python-mode-hook 'my-personal-code-style)
+  (add-hook 'go-mode-hook 'my-personal-code-style)
 )
 
 ;; Do not write anything past this comment. This is where Emacs will
