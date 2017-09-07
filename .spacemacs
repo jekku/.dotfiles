@@ -359,6 +359,9 @@ you should place your code here."
 
   (my-personal-code-style) ;; it would be lovely if this was enough, but it gets stomped on by modes >:(
 
+  (add-hook 'prog-mode-hook 'auto-complete-mode)
+  (add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
+
   (add-hook 'css-mode-hook 'my-personal-code-style)
   (add-hook 'js2-mode-hook 'my-personal-code-style)
   (add-hook 'js-mode-hook 'my-personal-code-style)
