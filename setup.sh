@@ -22,4 +22,4 @@ bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
 
 # Setup SPACEMACSTERRACE
 brew install emacs && git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d && emacs -nw
-
+cp spacemacs ~/.spacemacs
